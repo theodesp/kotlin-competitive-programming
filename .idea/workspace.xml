@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="" />
+    <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -57,7 +61,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="280">
-                <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+                <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -139,6 +143,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -158,6 +165,7 @@
     <option name="width" value="1117" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -227,6 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -345,7 +354,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574276937741</updated>
       <workItem from="1574276939381" duration="1139000" />
-      <workItem from="1574279674331" duration="1870000" />
+      <workItem from="1574279674331" duration="2031000" />
     </task>
     <servers />
   </component>
@@ -373,7 +382,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3009000" />
+    <option name="totallyTimeSpent" value="3170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="533" y="23" width="1117" height="1027" extended-state="0" />
@@ -389,7 +398,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32208923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32208923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +406,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="SBT Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297062" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -483,7 +492,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="280">
-            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
