@@ -1,7 +1,0 @@
-rootProject.name = 'kotlin'
-rootProject.name = 'kotlin-competitive-programming'
-
-
-enableFeaturePreview('GRADLE_METADATA')
-rootProject.name = 'kotlin'
-
