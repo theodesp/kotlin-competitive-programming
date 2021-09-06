@@ -3,12 +3,16 @@
  */
 package competitive.programming
 
-import kotlin.test.Test
-import kotlin.test.assertNotNull
+import io.kotest.core.spec.style.StringSpec
+import io.kotest.matchers.shouldBe
+import io.kotest.matchers.should
+import io.kotest.matchers.string.startWith
 
-class AppTest {
-    @Test fun appHasAGreeting() {
-        val classUnderTest = App()
-        assertNotNull(classUnderTest.greeting, "app should have a greeting")
+class MyTests : StringSpec({
+    "length should return size of string" {
+        "hello".length shouldBe 5
     }
-}
+    "startsWith should test for a prefix" {
+        "world" should startWith("wor")
+    }
+})
