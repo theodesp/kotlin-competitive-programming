@@ -1,17 +1,5 @@
 package competitive.programming.cs
 
-/**
-def removeKFromList(l, k):
-res = ListNode(None)
-res.next = l
-curr = res
-while curr:
-while curr.next and curr.next.value == k:
-curr.next = curr.next.next
-curr = curr.next
-return res.next
- */
-
 data class ListNode<T>(var value: T, var next: ListNode<T>? = null) {
 }
 fun makeListNode(list: Array<Int>): ListNode<Int> {

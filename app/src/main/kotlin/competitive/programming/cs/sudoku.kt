@@ -1,5 +1,6 @@
 package competitive.programming.cs
 
+import competitive.programming.Helpers
 import io.kotest.assertions.all
 import io.kotest.data.blocking.forAll
 
@@ -51,7 +52,7 @@ fun sudoku2(grid: MutableList<MutableList<Char>>): Boolean {
         if (!isValidRange(grid[i])) {
             return false
         }
-        if (!isValidRange(getColumn(grid, i))) {
+        if (!isValidRange(Helpers.getColumn(grid, i))) {
             return false
         }
     }
@@ -74,4 +75,3 @@ fun isValidRange(line: MutableList<Char>): Boolean {
     return freq.all { it.value == 1 }
 }
 
-fun getColumn(grid: MutableList<MutableList<Char>>, col: Int) = MutableList(grid.size) { grid[it][col] }

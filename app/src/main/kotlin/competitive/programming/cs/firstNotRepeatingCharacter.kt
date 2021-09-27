@@ -1,5 +1,7 @@
 package competitive.programming.cs
 
+import competitive.programming.Helpers
+
 /**
 Given a string s consisting of small English letters,
 find and return the first instance of a non-repeating character in it.
@@ -22,7 +24,7 @@ https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-charac
  */
 
 fun firstNotRepeatingCharacter(s: String): Char {
-    val freq = s.groupingBy { it }.eachCount()
+    val freq = Helpers.charFreq(s)
     for (i in s.indices) {
         if (freq[s[i]] == 1) {
             return s[i]
