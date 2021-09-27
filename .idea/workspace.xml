@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstNotRepeatingCharacterTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/rotateImage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/rotateImageTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstNotRepeatingCharacter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstNotRepeatingCharacter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstDuplicateTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstDuplicateTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -184,7 +191,7 @@
       <recent name="$PROJECT_DIR$/app/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FirstNotRepeatingCharacterTest">
+  <component name="RunManager" selected="Gradle.RotateImageTest">
     <configuration name="FirstDuplicateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,25 +234,26 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="basics.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-competitive-programming" />
-      <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/basics/basics.kts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstDuplicateTest: One duplicate" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
-      <module name="kotlin-competitive-programming.app.test" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
-      <option name="programParameters" value="" />
-      <option name="specName" value="competitive.programming.cs.FirstDuplicateTest" />
-      <option name="testPath" value="One duplicate" />
-      <option name="packageName" value="" />
-      <option name="vmparams" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="RotateImageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.RotateImageTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="FirstNotRepeatingCharacterTest: One repeating" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="kotlin-competitive-programming.app.test" />
@@ -260,13 +268,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateImageTest: 3x3" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="kotlin-competitive-programming.app.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="competitive.programming.cs.RotateImageTest" />
+      <option name="testPath" value="3x3" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RotateImageTest" />
+        <item itemvalue="Kotest.RotateImageTest: 3x3" />
         <item itemvalue="Gradle.FirstNotRepeatingCharacterTest" />
         <item itemvalue="Kotest.FirstNotRepeatingCharacterTest: One repeating" />
         <item itemvalue="Gradle.FirstDuplicateTest" />
-        <item itemvalue="Kotest.FirstDuplicateTest: One duplicate" />
-        <item itemvalue="Kotlin script.basics.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +318,7 @@
       <workItem from="1630694610273" duration="1441000" />
       <workItem from="1630873217668" duration="8947000" />
       <workItem from="1631267312314" duration="248000" />
-      <workItem from="1632743553020" duration="1710000" />
+      <workItem from="1632743553020" duration="5657000" />
     </task>
     <servers />
   </component>
@@ -384,17 +405,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstNotRepeatingCharacter.kt</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
