@@ -1,24 +1,4 @@
 package competitive.programming.cs
-
-/**
- * def rotateImage(A):
-# n = len(a)
-# for i in range(n - 1):
-#     a[0][i], a[i][n-1], a[n-1][n - 1 - i], a[n-1 - i][0] = a[n-1 - i][0], a[0][i], a[i][n-1], a[n-1][n - 1 - i]
-
-# return a
-N = len(A[0])
-for i in range(N // 2):
-for j in range(i, N - i - 1):
-temp = A[i][j]
-A[i][j] = A[N - 1 - j][i]
-A[N - 1 - j][i] = A[N - 1 - i][N - 1 - j]
-A[N - 1 - i][N - 1 - j] = A[j][N - 1 - i]
-A[j][N - 1 - i] = temp
-return A
-
- */
-
 /**
 You are given an n x n 2D matrix that represents an image. Rotate the image by 90 degrees (clockwise).
 
