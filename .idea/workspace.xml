@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstDuplicate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstDuplicateTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstNotRepeatingCharacterTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstNotRepeatingCharacter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstNotRepeatingCharacter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstDuplicateTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstDuplicateTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,8 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin Worksheet" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -183,28 +184,7 @@
       <recent name="$PROJECT_DIR$/app/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FirstDuplicateTest">
-    <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;competitive.programming.AppTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.FirstNotRepeatingCharacterTest">
     <configuration name="FirstDuplicateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -226,12 +206,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MyTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FirstNotRepeatingCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;competitive.programming.MyTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.FirstNotRepeatingCharacterTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -267,13 +247,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstNotRepeatingCharacterTest: One repeating" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="kotlin-competitive-programming.app.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="competitive.programming.cs.FirstNotRepeatingCharacterTest" />
+      <option name="testPath" value="One repeating" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FirstNotRepeatingCharacterTest" />
+        <item itemvalue="Kotest.FirstNotRepeatingCharacterTest: One repeating" />
         <item itemvalue="Gradle.FirstDuplicateTest" />
         <item itemvalue="Kotest.FirstDuplicateTest: One duplicate" />
         <item itemvalue="Kotlin script.basics.kts" />
-        <item itemvalue="Gradle.MyTests" />
-        <item itemvalue="Gradle.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +297,7 @@
       <workItem from="1630694610273" duration="1441000" />
       <workItem from="1630873217668" duration="8947000" />
       <workItem from="1631267312314" duration="248000" />
-      <workItem from="1632743553020" duration="873000" />
+      <workItem from="1632743553020" duration="1710000" />
     </task>
     <servers />
   </component>
@@ -391,6 +384,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstNotRepeatingCharacter.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
