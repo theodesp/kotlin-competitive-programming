@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/basics.ws.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/basics2.ws.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/classes.ws.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/collections.ws.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/coroutines.ws.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/basics/functions.ws.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/firstDuplicate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/firstDuplicateTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/AppTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/AppTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ExampleTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/cf/CF_71ASpec.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/cf/CF_71ASpec.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/cf/CF_71ATest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/cf/CF_71ATest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +54,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Script" />
         <option value="Kotlin Worksheet" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -95,7 +84,7 @@
     <option name="namespace" value="default" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="533" />
@@ -194,13 +183,34 @@
       <recent name="$PROJECT_DIR$/app/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin script.basics.kts">
+  <component name="RunManager" selected="Gradle.FirstDuplicateTest">
     <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;competitive.programming.AppTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FirstDuplicateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.FirstDuplicateTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -237,20 +247,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="competitive.programming.AppKt" />
-      <module name="kotlin-competitive-programming.app.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cs.CheckPalindromeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cs.CheckPalindromeKt" />
-      <module name="kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="basics.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin-competitive-programming" />
       <option name="filePath" value="$PROJECT_DIR$/src/main/kotlin/basics/basics.kts" />
@@ -258,13 +254,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstDuplicateTest: One duplicate" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="kotlin-competitive-programming.app.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="competitive.programming.cs.FirstDuplicateTest" />
+      <option name="testPath" value="One duplicate" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FirstDuplicateTest" />
+        <item itemvalue="Kotest.FirstDuplicateTest: One duplicate" />
         <item itemvalue="Kotlin script.basics.kts" />
         <item itemvalue="Gradle.MyTests" />
         <item itemvalue="Gradle.AppTest" />
-        <item itemvalue="Kotlin.AppKt" />
-        <item itemvalue="Kotlin.cs.CheckPalindromeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +302,9 @@
       <workItem from="1630406532174" duration="415000" />
       <workItem from="1630682590545" duration="1567000" />
       <workItem from="1630694610273" duration="1441000" />
-      <workItem from="1630873217668" duration="8522000" />
+      <workItem from="1630873217668" duration="8947000" />
+      <workItem from="1631267312314" duration="248000" />
+      <workItem from="1632743553020" duration="873000" />
     </task>
     <servers />
   </component>
