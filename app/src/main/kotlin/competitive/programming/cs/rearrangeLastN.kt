@@ -1,23 +1,6 @@
 package competitive.programming.cs
 
 /**
-
-def rearrangeLastN(l, n):
-if n == 0:
-return l
-front, back = l, l
-for _ in range(n): # traverse n steps forward
-front = front.next
-if not front:
-return l
-while front.next:
-front = front.next
-back = back.next
-out = back.next
-back.next = None
-front.next = l
-return out
-
 Given a singly linked list of integers l and a non-negative integer n, move the last n list nodes to the
 beginning of the linked list.
 
