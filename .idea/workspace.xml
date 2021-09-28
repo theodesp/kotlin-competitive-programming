@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/addTwoNumbersList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/addTwoHugeNumberTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/mergeTwoLists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/mergeTwoLinkedListsTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,7 @@
       <recent name="$PROJECT_DIR$/app/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.addTwoHugeNumberTest">
+  <component name="RunManager" selected="Gradle.mergeTwoLinkedListsTest">
     <configuration name="addTwoHugeNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -234,12 +233,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="removeKFromListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="mergeTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.removeKFromListTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.mergeTwoLinkedListsTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -283,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.mergeTwoLinkedListsTest" />
         <item itemvalue="Gradle.addTwoHugeNumberTest" />
         <item itemvalue="Kotest.isListPalindromeTest: non palindrome" />
         <item itemvalue="Gradle.isListPalindromeTest" />
         <item itemvalue="Kotest.removeKFromListTest: all ks" />
-        <item itemvalue="Gradle.removeKFromListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +317,7 @@
       <workItem from="1630694610273" duration="1441000" />
       <workItem from="1630873217668" duration="8947000" />
       <workItem from="1631267312314" duration="248000" />
-      <workItem from="1632743553020" duration="20934000" />
+      <workItem from="1632743553020" duration="21639000" />
     </task>
     <servers />
   </component>
