@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/hasPathWithGivenSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/hasPathWithGivenSumTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/isTreeSymetric.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/isTreeSymmetricTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,7 +318,7 @@
       <workItem from="1630694610273" duration="1441000" />
       <workItem from="1630873217668" duration="8947000" />
       <workItem from="1631267312314" duration="248000" />
-      <workItem from="1632743553020" duration="34789000" />
+      <workItem from="1632743553020" duration="35516000" />
     </task>
     <servers />
   </component>
