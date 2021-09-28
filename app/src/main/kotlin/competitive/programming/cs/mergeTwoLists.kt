@@ -2,22 +2,6 @@ package competitive.programming.cs
 
 /**
  *
-def mergeTwoLinkedLists(first_list, second_list):
-result = ListNode(None)
-current = result
-# Check each list and append smaller node on each iteration until we exhaust a list
-while first_list is not None and second_list is not None:
-if first_list.value <= second_list.value:
-current.next = first_list
-first_list = first_list.next
-else:
-current.next = second_list
-second_list = second_list.next
-current = current.next
-
-# Append the remaining list to the result
-current.next = first_list if first_list is not None else second_list
-return result.next
 Given two singly linked lists sorted in non-decreasing order, your task is to merge them. In other words, return a
 singly linked list, also sorted in non-decreasing order, that contains the elements from both original lists.
 

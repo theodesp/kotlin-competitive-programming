@@ -13,6 +13,9 @@ fun makeListNode(list: Array<Int>): ListNode<Int> {
     return res.next!!
 }
 fun removeKFromList(l: ListNode<Int>?, k: Int): ListNode<Int>? {
+    if (k == 0) {
+        return l
+    }
     val res = ListNode(0)
     res.next = l
     var curr = res

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40383bf7-a853-496b-9ba5-630013ac3f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/mergeTwoLists.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/mergeTwoLinkedListsTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/rearrangeLastN.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/kotlin/competitive/programming/cs/rearrangeLastNTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/mergeTwoLists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/mergeTwoLists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/removeKFromList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/competitive/programming/cs/removeKFromList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,13 +194,13 @@
       <recent name="$PROJECT_DIR$/app/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.mergeTwoLinkedListsTest">
-    <configuration name="addTwoHugeNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Kotest.rearrangeLastNTest: 1st">
+    <configuration name="rearrangeLastNTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.addTwoHugeNumberTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.rearrangeLastNTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -212,68 +216,52 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="isListPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.isListPalindromeTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="mergeTwoLinkedListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;competitive.programming.cs.mergeTwoLinkedListsTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="isListPalindromeTest: non palindrome" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="rearrangeLastNTest: 1st" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="kotlin-competitive-programming.app.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="competitive.programming.cs.isListPalindromeTest" />
-      <option name="testPath" value="non palindrome" />
+      <option name="specName" value="competitive.programming.cs.rearrangeLastNTest" />
+      <option name="testPath" value="1st" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeKFromListTest: all ks" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+    <configuration name="reverseNodesInKGroupsTest: even" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="kotlin-competitive-programming.app.test" />
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
       <option name="programParameters" value="" />
-      <option name="specName" value="competitive.programming.cs.removeKFromListTest" />
-      <option name="testPath" value="all ks" />
+      <option name="specName" value="competitive.programming.cs.reverseNodesInKGroupsTest" />
+      <option name="testPath" value="even" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseNodesInKGroupsTest: k=1" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="kotlin-competitive-programming.app.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="competitive.programming.cs.reverseNodesInKGroupsTest" />
+      <option name="testPath" value="k=1" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseNodesInKGroupsTest: k=3" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="kotlin-competitive-programming.app.test" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="competitive.programming.cs.reverseNodesInKGroupsTest" />
+      <option name="testPath" value="k=3" />
       <option name="packageName" value="" />
       <option name="vmparams" value="" />
       <method v="2">
@@ -282,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.mergeTwoLinkedListsTest" />
-        <item itemvalue="Gradle.addTwoHugeNumberTest" />
-        <item itemvalue="Kotest.isListPalindromeTest: non palindrome" />
-        <item itemvalue="Gradle.isListPalindromeTest" />
-        <item itemvalue="Kotest.removeKFromListTest: all ks" />
+        <item itemvalue="Kotest.rearrangeLastNTest: 1st" />
+        <item itemvalue="Gradle.rearrangeLastNTest" />
+        <item itemvalue="Kotest.reverseNodesInKGroupsTest: k=3" />
+        <item itemvalue="Kotest.reverseNodesInKGroupsTest: k=1" />
+        <item itemvalue="Kotest.reverseNodesInKGroupsTest: even" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +305,7 @@
       <workItem from="1630694610273" duration="1441000" />
       <workItem from="1630873217668" duration="8947000" />
       <workItem from="1631267312314" duration="248000" />
-      <workItem from="1632743553020" duration="21639000" />
+      <workItem from="1632743553020" duration="26663000" />
     </task>
     <servers />
   </component>
@@ -450,6 +438,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="competitive.programming.cs.ListNode" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
